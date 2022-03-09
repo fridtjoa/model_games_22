@@ -54,5 +54,6 @@
         "Temp/":true
     },
     "omnisharp.useGlobalMono": "always",
-    "omnisharp.useModernNet": true
+    "omnisharp.useModernNet": true,
+    "omnisharp.enableImportCompletion": true
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Mouse_Interaction : MonoBehaviour
@@ -20,6 +21,9 @@ public class Mouse_Interaction : MonoBehaviour
         if (Physics.Raycast(ray, out hit) && hit.rigidbody){
             hit.rigidbody.AddForce(new Vector3(0, 2, 0), ForceMode.Impulse);
         }
+        
 
     }
+
+    
 }
